@@ -7,7 +7,7 @@ package leetcode;
 
 import java.util.Scanner;
 
-class Solution {
+class BoudaryPaths {
 //	static int result;
 //	public static int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
 //		int arr[][]=new int[m][n];
