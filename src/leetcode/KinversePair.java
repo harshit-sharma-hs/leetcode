@@ -7,7 +7,7 @@ package leetcode;
 
 import java.util.Scanner;
 
-class Solution {
+class KinversePair {
     public static int kInversePairs(int n, int k) {
     	int dp[][] = new int[1001][1001];
     	dp[0][0]=1;
