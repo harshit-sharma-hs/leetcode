@@ -3,7 +3,7 @@
  */
 package leetcode;
 
-class GfG {
+class MinDisttwoNodes {
 	static TreeNode cans(TreeNode root, int a, int b) {
 		if (root == null || root.val == a || root.val == b)
 			return root;
