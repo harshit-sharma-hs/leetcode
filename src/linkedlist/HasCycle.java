@@ -5,7 +5,7 @@
 package linkedlist;
 
 public class HasCycle {
-    public boolean hasCycle(ListNode head) {
+    public static boolean hasCycle(ListNode head) {
         if(head == null || head.next == null)
             return false;
         ListNode fast = head;
@@ -23,6 +23,7 @@ public class HasCycle {
 
         
     }
+    public static void main(String args[])
     {
     	ListNode head= new ListNode(1);
     	head.next = new ListNode(2);
